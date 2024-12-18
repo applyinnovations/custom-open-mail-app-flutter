@@ -1,3 +1,7 @@
+## 0.4.5
+- Support Flutter 3.24.4
+  - Update Android compileSdkVersion to 33 (Android 14)
+  - Update JVM Java 17
 ## 0.4.4
 - Support Flutter 2.10.0
   - Update Android compileSdkVersion to 31 (Android 12)
