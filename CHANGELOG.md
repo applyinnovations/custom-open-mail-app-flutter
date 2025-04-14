@@ -1,3 +1,5 @@
+## 0.4.6
+- Support Flutter 3.29
 ## 0.4.5
 - Support Flutter 3.24.4
   - Update Android compileSdkVersion to 33 (Android 14)

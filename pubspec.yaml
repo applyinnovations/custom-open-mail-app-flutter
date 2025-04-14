@@ -1,6 +1,6 @@
 name: custom_open_mail_app
 description: This library provides the ability to query the device for installed email apps and open those apps
-version: 0.4.5
+version: 0.4.6
 homepage: https://tikngroup.com
 repository: https://github.com/maulanauls/open-mail-app-flutter
 
@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.homex.open_mail_app
+        package: com.homex.custom_open_mail_app
         pluginClass: OpenMailAppPlugin
       ios:
         pluginClass: OpenMailAppPlugin

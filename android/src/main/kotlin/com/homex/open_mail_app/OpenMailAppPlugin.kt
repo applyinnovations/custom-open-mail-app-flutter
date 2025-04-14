@@ -36,15 +36,15 @@ class OpenMailAppPlugin : FlutterPlugin, MethodCallHandler {
     // them functionally equivalent. Only one of onAttachedToEngine or registerWith will be called
     // depending on the user's project. onAttachedToEngine or registerWith must both be defined
     // in the same class.
-    companion object {
-        @JvmStatic
-        fun registerWith(registrar: Registrar) {
-            val channel = MethodChannel(registrar.messenger(), "open_mail_app")
-            val plugin = OpenMailAppPlugin()
-            channel.setMethodCallHandler(plugin)
-            plugin.init(registrar.context())
-        }
-    }
+    // companion object {
+    //     @JvmStatic
+    //     fun registerWith(registrar: Registrar) {
+    //         val channel = MethodChannel(registrar.messenger(), "open_mail_app")
+    //         val plugin = OpenMailAppPlugin()
+    //         channel.setMethodCallHandler(plugin)
+    //         plugin.init(registrar.context())
+    //     }
+    // }
 
     fun init(context: Context) {
         applicationContext = context
